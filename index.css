@@ -1,0 +1,86 @@
+html,
+body {
+  margin: 60px;
+  padding: 0px;
+  background-color: rgb(85, 85, 242);
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-family: "Tourney", cursive;
+  margin-right: 20px;
+  margin-left: 20px;
+  color: rgb(72, 242, 72);
+}
+
+h1 {
+  font-size: 350%;
+}
+
+h2 {
+  font-size: 200%;
+}
+
+.dollar {
+  color: gold;
+}
+
+.numbers-container,
+.emoji-wealth {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.number {
+  padding: 20px;
+  border: 4px solid skyblue;
+  min-width: 25px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(72, 242, 72);
+}
+
+.emoji-wealth {
+  padding: 20px;
+  font-size: 350%;
+}
+#btn {
+  background-color: gold;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-weight: bold;
+  padding: 20px;
+  font-size: 100%;
+}
+
+@media (max-width: 600px) {
+  html,
+  body {
+    background-color: black;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .emoji-wealth {
+    text-align: center;
+  }
+  #btn {
+    text-align: center;
+  }
+  .numbers-container {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 0px;
+  }
+}
